@@ -1,4 +1,4 @@
 # Practice
 
-## initial setting test
+## 1. JavaScript Study Note
 
