@@ -8,8 +8,8 @@
   - reverse('Greetings!') === '!sgniteerG'
 */
 
-// 1. Basic for loop
-// 배열의 특정 원소에 접근할 때를 제외하고, 문법 오류 방지를 위하여 for loop 사용을 권장하지 않음
+// 1. for loop
+// 배열의 특정 원소에 접근할 때를 제외하고, 문법 오류 방지를 위하여 for 문 사용을 권장하지 않음
 function reverseStr1(str) {
   const arr = str.split("");
   const reverseArr = [];
