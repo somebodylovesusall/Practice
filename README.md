@@ -8,5 +8,3 @@
 ### Integer Reversal
 
 ## JavaScript
-
-Test
