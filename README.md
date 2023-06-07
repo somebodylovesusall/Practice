@@ -17,4 +17,10 @@
 
 ### Capitalization
 
+### Steps
+
+### Pyramids
+
+### Vowels
+
 ## JavaScript
