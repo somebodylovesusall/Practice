@@ -11,4 +11,10 @@
 
 ### FizzBuzz
 
+### Array Chunk
+
+### Anagrams
+
+### Sentence Capitalization
+
 ## JavaScript
