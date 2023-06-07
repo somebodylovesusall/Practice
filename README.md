@@ -15,6 +15,6 @@
 
 ### Anagrams
 
-### Sentence Capitalization
+### Capitalization
 
 ## JavaScript
