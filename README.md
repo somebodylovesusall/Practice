@@ -2,9 +2,9 @@
 
 ## Algorithm & Data Structure
 ### String Reversal
-❔  
+#### ❔  
 주어진 문자열에 대한 역순의 문자열 생성 (매개변수: String, 반환값: String)  
-✔️  
+#### ✔️  
 문자열과 배열을 서로 자유롭게 변환하는 함수 사용 (split, join 함수)  
 ❕  
 for loop: 배열의 길이부터 시작하여 0으로 감소한 후 새로운 배열에 push 함수를 사용하여 맨 뒤에 요소 삽입  
