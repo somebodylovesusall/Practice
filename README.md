@@ -7,4 +7,8 @@
 
 ### Integer Reversal
 
+### Max Chars
+
+### FizzBuzz
+
 ## JavaScript
