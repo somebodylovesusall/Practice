@@ -8,12 +8,12 @@
   palindrome("abcdefg") === false
 */
 
-// 1. for loop
+// 1. isPalindrome variable
 function palindrome1(str) {
   let isPalindrome = false;
 
   for (let i = 0; i < str.length; i++) {
-    if (str[i] === str[str.length - (i + 1)]) { // 배열이나 문자열의 인덱스는 0부터 시작하므로 마지막 요소에서 추가로 1을 뺌
+    if (str[i] === str[str.length - (i + 1)]) {
       isPalindrome = true;
     } else {
       isPalindrome = false;
@@ -21,15 +21,15 @@ function palindrome1(str) {
     }
   }
 
-  return true;  // 가급적이면 단일 return 문으로 반환
+  return true;
 }
 
-// 2. forEach method
+// 2. unshift method
 function palindrome2(str) {
   const arr = str.split("");
   const reversedArr = [];
 
-  arr.forEach(elem => reversedArr.unshift(elem));  // unshift 함수를 사용하여 새로운 배열 맨 앞에 요소 삽입
+  arr.forEach(elem => reversedArr.unshift(elem));
 
   return arr.join("") === reversedArr.join("");
 }
@@ -42,5 +42,5 @@ function palindrome3(str) {
 
 // 4. every method
 function palindrome4(str) {
-  return str.split("").every((char, index) => char === str[str.length - index - 1]);  // every 함수는 조건을 모두 만족하면 true 반환
+  return str.split("").every((char, index) => char === str[str.length - index - 1]);
 }

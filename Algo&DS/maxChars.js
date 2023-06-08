@@ -6,10 +6,10 @@
   maxChar("apple 1231111") === "1"
  */
 
-// 1. for of & for in loops + maxCount array
+// 1. maxCount array
 function maxChar1(str) {
   const charObj = {};
-  const maxCount = [];  // charObj의 value만 별도로 저장할 배열 maxCount 초기화
+  const maxCount = [];
   
   for (let char of str) {
     if (!charObj[char]) charObj[char] = 1;
@@ -20,17 +20,17 @@ function maxChar1(str) {
     maxCount.push(charObj[obj]);
   }
 
-  const maxValue = Math.max(...maxCount); // Spread 구문을 활용하여 배열 요소 열거
-  const maxKey = Object.keys(charObj).find(key => charObj[key] === maxValue); // find 함수를 사용하여 maxValue에 해당하는 maxKey 반환
+  const maxValue = Math.max(...maxCount);
+  const maxKey = Object.keys(charObj).find(key => charObj[key] === maxValue);
 
   return maxKey;
 }
 
-// 2. for of & for in loops + maxKey & maxValue variables
+// 2. maxKey & maxValue variables
 function maxChar2(str) {
   const charObj = {};
-  let maxKey = "";  // charObj의 key와 비교할 변수 maxKey 초기화
-  let maxValue = 0; // charObj의 value와 비교할 변수 maxValue 초기화
+  let maxKey = "";
+  let maxValue = 0;
 
   for (let char of str) {
     if (charObj[char]) charObj[char] = charObj[char] + 1;

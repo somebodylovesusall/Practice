@@ -7,45 +7,45 @@
   reverse('Greetings!') === '!sgniteerG'
 */
 
-// 1. for loop
+// 1. push method
 function reverseStr1(str) {
   const arr = str.split("");
   const reversedArr = [];
 
   for (let i = arr.length - 1; i >= 0; i--) {
-    reversedArr.push(arr[i]);  // push 함수를 사용하여 새로운 배열 맨 뒤에 요소 삽입
+    reversedArr.push(arr[i]);
   }
 
   return reversedArr.join("");
 }
 
-// 2. forEach method
+// 2. unshift method
 function reverseStr2(str) {
   const arr = str.split("");
   const reversedArr = [];
 
-  arr.forEach(elem => reversedArr.unshift(elem)); // unshift 함수를 사용하여 새로운 배열 맨 앞에 요소 삽입;
+  arr.forEach(elem => reversedArr.unshift(elem));
 
   return reversedArr.join("");
 }
 
- // 3. reverse method
- function reverseStr3(str) {
+// 3. reverse method
+function reverseStr3(str) {
   return str.split("").reverse().join("");
- }
+}
 
- // 4. for of loop
+// 4. for of loop
 function reverseStr4(str) {
   let reversedStr = "";
 
   for (let char of str) {
-    reversedStr = char + reversedStr; // reversed 맨 앞에 char를 누적
+    reversedStr = char + reversedStr;
   }
 
   return reversedStr;
 }
 
- // 5. reduce method
- function reverseStr5(str) {
-  return str.split("").reduce((reversedStr, char) => char + reversedStr, ""); // reduce(callbackFn, initialvalue)
- }
+// 5. reduce method
+function reverseStr5(str) {
+  return str.split("").reduce((reversedStr, char) => char + reversedStr, "");
+}
