@@ -9,22 +9,22 @@
   Chunk size 10: chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 */
 
-// 1. two-dimensional array
+// 1. main & sub arrays
 function chunk1(array, size) {
-  const mainArray = [];
-  let subArray = [];
+  const mainArr = [];
+  let subArr = [];
 
   for (let i = 0; i < array.length; i++) {
-    if (subArray.length === size) {
-      mainArray.push(subArray);
-      subArray = [];
+    if (subArr.length === size) {
+      mainArr.push(subArr);
+      subArr = [];
     }
-    subArray.push(array[i]);
+    subArr.push(array[i]);
 
-    if (i === array.length - 1) mainArray.push(subArray);
+    if (i === array.length - 1) mainArr.push(subArr);
   }
 
-  return mainArray;
+  return mainArr;
 }
 
 // 2. chunked & unchunked arrays
