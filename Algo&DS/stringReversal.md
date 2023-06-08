@@ -10,7 +10,7 @@
 
 ## ❕
 ### push method
-- for loop 조건식을 배열의 길이로 초기화하고 0까지 차례로 -1씩 감소
+- for 반복문 조건식을 배열의 길이로 초기화하고 0까지 차례로 -1씩 감소
 - 새로운 배열 reversedArr에 push 함수를 사용하여 맨 뒤에 요소 삽입
 
 ### unshift method
