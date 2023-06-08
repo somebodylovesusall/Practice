@@ -6,7 +6,7 @@
 - 반환값: String
 
 ## ✔️
-객체의 key를 최빈 문자로 value를 빈도로 설정 {char : frequency}
+객체의 key를 최빈 문자로 value를 빈도로 설정 {char : frequency}  
 객체의 value가 null인 경우와 아닌 경우를 구별
 
 ## ❕
@@ -23,5 +23,5 @@
 - for in 반복문에서 객체 charObj key를 차례로 순회하여 value가 maxValue보다 크면 maxKey와 maxValue를 각각 변경
 
 ## 💡
-객체 설정은 count, verification, validation에 유용
+객체 설정은 count, verification, validation에 유용  
 함수를 불필요하게 사용하지 않고 변수 설정만으로 간단한 문제 해결이 가능
