@@ -1,8 +1,7 @@
 # FizzBuzz
 
 ## ❔
-주어진 숫자만큼 로그 출력  
-3의 배수: fizz, 5의 배수: buzz, 3과 5의 배수: fizzbuzz, 그외: n
+주어진 숫자만큼 로그 출력 (3의 배수: fizz, 5의 배수: buzz, 3과 5의 배수: fizzbuzz, 그외: n)
 - 매개변수: String
 - 반환값: undefined
 
