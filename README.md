@@ -15,5 +15,10 @@
 - Vowels
 - Matrix Spirals
 - Fibonacci
+- Queue
+- Peek
+- Weave
+- Stack
+- Queue Stack
 
 ## JavaScript
