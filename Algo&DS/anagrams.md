@@ -24,8 +24,8 @@
 
 ## 💡
 정규표현식
-- ```/[\w]/g```, ```/[^\W]/g```: 
-- ```/[^\w]/g```, ```/[\W]/g```: non-word characters
+- ```/[\w]/g```, ```/[^\W]/g```: alphanumeric characters plus "_"
+- ```/[^\w]/g```, ```/[\W]/g```: non-word characters  
 내장 함수
 - ```sort()```: 배열의 요소를 오름차순으로 정렬
 - ```replace(pattern, replacement)```: ```pattern```을 ```replacement```로 대체
