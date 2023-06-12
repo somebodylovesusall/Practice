@@ -20,12 +20,8 @@ function vowels1(str) {
   return count;
 }
 
-console.log(vowels1("Hi ThereII!"));
-
 // 2. regular expression
 function vowels2(str) {
   const vowelMatchArr = str.match(/[aeiou]/gi);
   return vowelMatchArr ? vowelMatchArr.length : 0;
 }
-
-console.log(vowels2("HI Sdfyiiofj"));
