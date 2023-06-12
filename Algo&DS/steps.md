@@ -15,7 +15,7 @@
 
 ### repeat method
 
-- `while` 반복문을 사용하여 변수 `index`를 1씩 `n`까지 증가
+- `while` 반복문을 사용하여 변수 `index`를 1만큼 `n`까지 증가
 - `repeat` 함수를 사용하여 "#"은 변수 `index`만큼 " "는 `n - index`만큼 출력
 
 ### iteration
