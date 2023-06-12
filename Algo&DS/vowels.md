@@ -23,8 +23,9 @@ case insensitive를 위하여 `toLowerCase` 함수 사용
 
 ## 💡
 내장함수  
+- `includes(searchElement)`: 문자열이나 배열이 찾고자 하는 값을 포함하면 `true`를 반환하고 포함하지 않으면 `false`를 반환
 - `match(regexp)`: 문자열이 정규표현식과 일치하면 일치하는 전체 문자열을 첫 번째 요소로 포함하는 배열을 반환하고 일치하는 것이 없으면 `null`을 반환  
-- 
+
 정규표현식
 - `/g`: 정규표현식과 일치하는 모든 요소를 탐색 (multiple 허용) 
 - `/i`: case insensitive
