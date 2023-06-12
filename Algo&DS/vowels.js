@@ -7,3 +7,13 @@
   vowels('Why do you ask?'); --> 4
   vowels('Why?'); --> 0
 */
+
+// 1. 
+function vowels1(str) {
+
+}
+
+// 2.
+function vowels2(str) {
+  
+}

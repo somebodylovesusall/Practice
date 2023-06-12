@@ -51,7 +51,7 @@ function steps3(n, row = 0, stair = "") {
 
   if (n === stair.length) {
     console.log(stair);
-    steps3(n, row + 1);
+    return steps3(n, row + 1);
   }
 
   // if (stair.length <= row) stair = stair + "#";
