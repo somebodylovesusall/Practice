@@ -21,8 +21,8 @@
 ### iteration
 
 - 이중 `for` 반복문을 사용하여 변수 `stair`를 빈 문자로 초기화
-- 변수 `col`이 변수 `row`보다 같거나 작으면 변수 `stair`에 "#" 추가
-- 변수 `col`이 변수 `row`보다 크면 변수 `stair`에 " " 추가
+- 변수 `col`이 `row`보다 같거나 작으면 변수 `stair`에 "#" 추가
+- 변수 `col`이 `row`보다 크면 변수 `stair`에 " " 추가
 - 변수 `row`가 `n`이 될 때까지 반복하여 로그 출력
 
 ### recursion
