@@ -8,12 +8,24 @@
   vowels('Why?'); --> 0
 */
 
-// 1. 
+// 1. includes method
 function vowels1(str) {
+  let count = 0;
+  const vowelArr = ["a", "e", "i", "o", "u"];
 
+  for (let char of str.toLowerCase()) {
+    if (vowelArr.includes(char)) count = count + 1;
+  }
+
+  return count;
 }
 
-// 2.
+console.log(vowels1("Hi ThereII!"));
+
+// 2. regular expression
 function vowels2(str) {
-  
+  const vowelMatchArr = str.match(/[aeiou]/gi);
+  return vowelMatchArr ? vowelMatchArr.length : 0;
 }
+
+console.log(vowels2("HI Sdfyiiofj"));
