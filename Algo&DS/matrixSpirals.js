@@ -16,6 +16,7 @@
   [10,  9,  8, 7]]
 */
 
+// variable rows & columns
 function matrix(n) {
   const matrixArr = [];
 
