@@ -20,5 +20,9 @@
 - Weave
 - Stack
 - Queue Stack
+- Linked Lists
+- Midpoint
+- Circular Lists
+- Tail
 
 ## JavaScript
