@@ -8,7 +8,7 @@
   fib(7) === 13;
 */
 
-// 1. iteration: while loop
+// 1. iteration: variables
 function fib1(n) {
   let num1 = 0;
   let num2 = 1;
@@ -26,7 +26,7 @@ function fib1(n) {
   return sum;
 }
 
-// 2. iteration: for loop
+// 2. iteration: array
 function fib2(n) {
   const fibArr = [0, 1];
 
