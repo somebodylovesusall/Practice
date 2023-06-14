@@ -21,7 +21,7 @@ Runtime Complexity: iteration vs recursion
 
 ### recursion
 - `if` 조건문에서 매개변수 `n`이 2보다 작으면 `n`을 그대로 반환
-- `n`이 2보다 작아지는 순간까지 `fib3(n - 2)`와 `fib3(n - 1)` 함수를 재귀 호출
+- 매개변수 `n`이 2보다 작아지는 순간까지 `fib3(n - 2)`와 `fib3(n - 1)` 함수를 재귀 호출
 
 ### memoization
 - 
