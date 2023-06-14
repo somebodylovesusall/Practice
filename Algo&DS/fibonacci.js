@@ -52,16 +52,18 @@ function fib(n) {
 }
 
 function memoize(fn) {
-  const cache = {};
+  const cacheObj = {};
 
   return function(...args) {
-    if (cache[args]) return cache[args];
+    if (cacheObj[args]) return cacheObj[args];
   
     const result = fn.apply(this, args);
-    cache[args] = result;
+    cacheObj[args] = result;
 
     return result;
   }
 }
 
 fib = memoize(fib);
+
+console.log(fib(4));
