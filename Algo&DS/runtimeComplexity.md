@@ -17,8 +17,8 @@
 요소 하나를 추가하면 하나의 단위 그 이상으로 소요 시간 증가
 - Quadratic Time : `O(n^2)`  
 집합 내 모든 요소를 다른 모든 요소와 비교
-Exponential Time : `O(2^n)`  
-- 집합 내 요소 하나를 추가하면 급격하게 소요 시간 증가
+- Exponential Time : `O(2^n)`  
+집합 내 요소 하나를 추가하면 급격하게 소요 시간 증가
 
 ## Examples
 - 단일 `collection`에 대한 단순 `for` 반복문 수행: O(n)
