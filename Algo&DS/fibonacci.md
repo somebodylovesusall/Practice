@@ -11,15 +11,17 @@ Runtime Complexity: iteration vs recursion
 
 ## ❕
 ### iteration: variables
-- 
-- 
+- 변수 `num1`, `num2`를 각각 0, 1로 초기화
+- 변수 `sum`은 0으로 초기화하고 `num1 + num2` 값으로 `while` 반복문에서 변경
+- 변수 `count`를 1만큼 매개변수 `n` 이전까지 증가
 
 ### iteration: array
-- 처음 두 개의 숫자 0, 1을 배열 `fibArr`에 미리 지정
-- `for` 반복문에서 배열 
+- 처음 두 개의 숫자 0, 1을 배열 `fibArr`의 요소로 미리 지정
+- `for` 반복문에서 피보나치 수열의 순서로 배열 `fibArr`에 요소를 추가
 
 ### recursion
-- 
+- `if` 조건문에서 매개변수 `n`이 2보다 작으면 `n`을 그대로 반환
+- `n`이 2보다 작아지는 순간까지 `fib3(n - 2)`와 `fib3(n - 1)` 함수를 재귀 호출
 
 ### memoization
 - 
