@@ -24,7 +24,10 @@ Runtime Complexity: iteration vs recursion
 - 매개변수 `n`이 2보다 작아지는 순간까지 `fib3(n - 2)`와 `fib3(n - 1)` 함수를 재귀 호출
 
 ### memoization
-- 
+- 이전 호출 함수의 결과값을 저장할 객체 `cacheObj` 생성
+- `return` 문의 함수에서 `arguments` 개수를 모르므로 `Spread` 연산자 사용
+- 객체 `cacheObj`에 이전 호출 함수의 결과값이 저장되어 있을 때 그대로 반환
+- `apply` 함수를 사용하여 새로운 결과값 저장
 
 ## 💡
 Runtime Complexity: iteration < recursion  
