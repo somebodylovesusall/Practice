@@ -65,5 +65,3 @@ function memoize(fn) {
 }
 
 fib = memoize(fib);
-
-console.log(fib(4));
