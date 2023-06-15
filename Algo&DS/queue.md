@@ -3,7 +3,7 @@
 
 ## ❔
 클래스 `Queue` 내부에 `constructor`, `add`, `remove`, `peek` 함수 구현  
-`weave` 함수 구현 시 매개변수 배열 `source1`, `source2`의 요소를 *교차*하여 새로운 큐애 삽입
+`weave` 함수 구현 시 매개변수 배열 `sourceOne`, `sourceTwo`의 요소를 *교차*하여 새로운 큐애 삽입
 
 ## ✔️
 배열에 직접 접근하지 않고 클래스의 함수를 통하여 `queue`를 수동적으로 조작
