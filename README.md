@@ -16,13 +16,17 @@
 - Matrix Spirals
 - Fibonacci
 - Queue
-- Peek
-- Weave
 - Stack
 - Queue Stack
 - Linked Lists
 - Midpoint
 - Circular Lists
 - Tail
+- Nodes
+- Trees
+- Breadth First Traversal
+- Depth First Traversal
+- Level Width
+- Binary Search Trees
 
 ## JavaScript
