@@ -22,5 +22,6 @@
 queue : array equivalent  
 - add to queue -> array.unshift();
 - remove from queue -> array.pop();  
+
 purposeful queue
 - 자바스크립트 자체적으로 몇 가지 자료구조들이 내장되어 있으나 성능 향상을 위하여 큐를 배열처럼 다루고 싶지 않은 경우 직접 구현
