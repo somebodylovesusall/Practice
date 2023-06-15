@@ -1,7 +1,7 @@
 # Practice
 
 ## Algorithm & Data Structure
-
+### Algorithm
 - String Reversal
 - Palindromes
 - Integer Reversal
@@ -15,6 +15,8 @@
 - Vowels
 - Matrix Spirals
 - Fibonacci
+
+### Data Structure
 - Queue
 - Stack
 - Queue Stack
