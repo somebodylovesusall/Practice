@@ -13,9 +13,10 @@
 배열에 직접 접근하지 않고 클래스의 함수를 통하여 `queue`를 수동적으로 조작
 
 ## ❕
-### class `Queue`
+### class Queue
+- 
 
-### `weave` method
+### weave method
 
 ## 💡
 queue : array equivalent  
