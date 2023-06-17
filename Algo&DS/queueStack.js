@@ -12,3 +12,59 @@
   q.remove(); --> 1
   q.remove(); --> 2
 */
+
+class Stack {
+  constructor() {
+    this.data = [];
+  }
+
+  push(element) {
+    this.data.push(element);
+  }
+
+  pop() {
+    return this.data.pop();
+  }
+
+  peek() {
+    return this.data[this.data.length - 1];
+  }
+}
+class Queue {
+  constructor() {
+    this.stackOne = new Stack();
+    this.stackTwo = new Stack();
+  }
+
+  add(element) {
+    this.stackOne.push(element);
+  }
+
+  remove() {
+    while (this.stackOne.peek()) {
+      this.stackTwo.push(this.stackOne.pop());
+    }
+
+    const top = this.stackTwo.pop();
+
+    while (this.stackTwo.peek()) {
+      this.stackOne.push(this.stackTwo.pop());
+    }
+
+    return top;
+  }
+
+  peek() {
+    while (this.stackOne.peek()) {
+      this.stackTwo.push(this.stackOne.pop());
+    }
+
+    const top = this.stackTwo.peek();
+
+    while (this.stackTwo.peek()) {
+      this.stackOne.push(this.stackTwo.pop());
+    }
+
+    return top;
+  }
+}
