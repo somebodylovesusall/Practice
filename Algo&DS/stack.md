@@ -16,7 +16,7 @@
 - `peek()`: 스택의 마지막 요소를 반환하고 유지
 
 ## 💡
-큐와 유사하지만 출력 순서가 다름을 기억  
+큐와 스택은 유사하지만 출력 순서가 다름을 기억  
 stack : array equivalent
 - add to stack -> `array.push(element0, element1, /* … ,*/ elementN);`
 - remove from stack -> `array.pop();`
