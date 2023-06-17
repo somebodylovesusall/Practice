@@ -25,5 +25,5 @@
 ## 💡
 성능 향상을 위하여 큐를 배열처럼 다루고 싶지 않은 경우 의도적으로 직접 구현  
 queue : array equivalent  
-- add to queue -> `array.unshift();`
+- add to queue -> `array.unshift(element0, element1, /* … ,*/ elementN);`
 - remove from queue -> `array.pop();`
