@@ -30,6 +30,7 @@ class Stack {
     return this.data[this.data.length - 1];
   }
 }
+
 class Queue {
   constructor() {
     this.stackOne = new Stack();
