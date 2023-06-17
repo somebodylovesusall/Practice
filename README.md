@@ -30,5 +30,8 @@
 - Depth First Traversal
 - Level Width
 - Binary Search Trees
+- Bubble Sort
+- Selection Sort
+- Merge Sort
 
 ## JavaScript
