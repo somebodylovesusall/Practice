@@ -13,11 +13,12 @@
 
 ### class LinkedList
 - `constructor()`: 연결 리스트 `head`의 기본값을 `null`로 초기화
-- `insertFirst(data)`: 매개변수 `data`로 클래스 `Node`의 새로운 인스턴스 생성하여 연결 리스트 `head`로 지정 (node = data, next = this.head)
+- `insertFirst(data)`: 매개변수 `data`로 클래스 `Node`의 새로운 인스턴스를 생성하여 연결 리스트 `head`로 지정 (node = data, next = this.head)
 - `size()`: 변수 `count`를 0으로 초기화하고 노드를 다음 노드로 계속 이동하여 연결 리스트의 길이 반환
-- `getFirst()`:
-- `getLast()`:
-- `clear()`:
+- `getFirst()`: `head`가 가리키는 연결 리스트의 처음 노드 반환
+- `getLast()`: 연결 리스트의 마지막 요소 반환
+  - 
+- `clear()`: 연결 리스트 `head`의 값을 null로 설정하여 공백으로 변환
 - `removeFirst()`:
 - `removeLast()`:
 - `insertLast(data)`:
