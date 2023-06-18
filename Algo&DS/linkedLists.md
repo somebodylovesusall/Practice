@@ -12,9 +12,9 @@
 - `constructor(data, next = null)`: 노드 값과 다음 노드 주소를 가지는 노드 생성
 
 ### class LinkedList
-- `constructor()`:
-- `insertFirst(data)`:
-- `size()`:
+- `constructor()`: 연결 리스트 `head`의 기본값을 `null`로 초기화
+- `insertFirst(data)`: 매개변수 `data`로 클래스 `Node`의 새로운 인스턴스 생성하여 연결 리스트 `head`로 지정 (node = data, next = this.head)
+- `size()`: 변수 `count`를 0으로 초기화하고 노드를 다음 노드로 계속 이동하여 연결 리스트의 길이 반환
 - `getFirst()`:
 - `getLast()`:
 - `clear()`:
