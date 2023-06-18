@@ -2,7 +2,7 @@
 
 ## ❔
 단순 연결 리스트 생성  
-클래스 `Node`와 `LinkedList` 내부에 기본 함수 구현 (*linkedLists.html* 참조)
+클래스 `Node`와 `LinkedList` 내부에 기본 함수 구현 (`linkedLists.html` 참조)
 
 ## ✔️
 각 함수별 *edge case*를 고려하여 함수 구현
