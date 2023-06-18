@@ -15,7 +15,7 @@
 - `constructor()`: `head`가 `null`로 초기화된 연결 리스트 생성
 - `insertFirst(data)`: 연결 리스트의 처음 노드 삽입
   - 매개변수 `data`로 클래스 `Node`의 새로운 인스턴스를 생성
-  - `node`에 data를 `next`에 `this.head`를 할당
+  - `node`에 `data`를 `next`에 `this.head`를 할당
 - `size()`: 연결 리스트의 길이 반환
   - 변수 `count`를 0으로 초기화
   - `while` 반복문에서 노드를 순회하며 변수 `count`를 증가
