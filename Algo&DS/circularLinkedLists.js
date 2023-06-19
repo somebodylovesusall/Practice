@@ -1,4 +1,5 @@
-/* Midpoint
+/* Circular Lists
+  1. Implement the 'midpoint' function.
   Return the 'middle' node of a linked list.
   If the list has an even number of elements return the node at the end of the first half of the list.
   Do not use a counter variable.
@@ -6,11 +7,38 @@
   Only iterate through the list one time.
 
   Example:
-  const l = new LinkedList();
-  l.insertLast('a');
-  l.insertLast('b');
-  l.insertLast('c');
-  midpoint(l); --> { data : 'b' }
+  const list = new LinkedList();
+  list.insertLast('a');
+  list.insertLast('b');
+  list.insertLast('c');
+  midpoint(list); --> { data : 'b' }
+  
+  2. Implement the 'circular' function.
+  Given a linked list, return true if the list is circular, false if it is not.
+
+  Example:
+  const list = new LinkedList();
+  const a = new Node('a');
+  const b = new Node('b');
+  const c = new Node('c');
+  list.head = a;
+  a.next = b;
+  b.next = c;
+  c.next = b; 
+  circular(list); --> true
+
+  3. Implement the 'tail' function.
+  Given a linked list and integer n, return the element n spaces from the last node in the list. 
+  Do not call the 'size' method of the linked list.
+  Assume that n will always be less than the length of the list.
+
+  Example:
+  const list = new LinkedList(); 
+  list.insertLast('a');
+  list.insertLast('b');
+  list.insertLast('c');
+  list.insertLast('d');
+  tail(list, 2).data; --> 'b'
 */
 
 class Node {
@@ -161,6 +189,37 @@ function midpoint(list) {
   while (fast.next && fast.next.next) {
     slow = slow.next;
     fast = fast.next.next;
+  }
+
+  return slow;
+}
+
+function circular(list) {
+  let slow = list.head;
+  let fast = list.head;
+
+  while (fast.next && fast.next.next) {
+    slow = slow.next;
+    fast = fast.next.next;
+
+    if (fast === slow) return true;
+  }
+
+  return false;
+}
+
+function tail(list, n) {
+  let slow = list.head;
+  let fast = list.head;
+
+  while (n > 0) {
+    fast = fast.next;
+    n = n - 1;
+  }
+
+  while (fast.next) {
+    slow = slow.next;
+    fast = fast.next;
   }
 
   return slow;

@@ -6,7 +6,7 @@
   Example:
   const q = new Queue();
   q.add(1);
-  q.remove(); --> 1;
+  q.remove(); --> 1
   
   2. Implement a 'peek' method in this Queue class.
   Peek should return the last element (the next one to be returned) from the queue without removing it.
