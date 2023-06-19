@@ -21,10 +21,7 @@
 - Stack
 - Queue Stack
 - Linked Lists
-- Midpoint
-- Circular Lists
-- Tail
-- Nodes
+- Circular Linked Lists
 - Trees
 - Breadth First Traversal
 - Depth First Traversal
