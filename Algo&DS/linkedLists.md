@@ -45,7 +45,7 @@
   - 매개변수 `index`가 0이면 처음 노드를 제거
   - 변수 `prev`를 `index - 1` 노드로 초기화
   - `prev` 노드가 없거나 `prev` 다음 노드가 없으면 함수 종료
-  - `prev.next`를 `prev` 다음 다음 노드로 할당
+  - `prev.next`를 `prev` 다다음 노드로 할당
 - `insertAt(data, index)`: 연결 리스트의 특정 인덱스 노드 삽입
   - 연결 리스트의 `head` 값이 없으면 새로운 노드를 생성하여 `head`에 할당
   - 매개변수 `index`가 0이면 처음 노드로 삽입
