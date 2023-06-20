@@ -7,7 +7,7 @@
 - `traverseDF(fn)`: 깊이 우선 순회 수행
 
 ## ✔️
-Tree Traversal
+**Tree Traversal**
 - Breadth-first Traversal(BFT): 넓이 우선 순회는 `root`부터 각 `level`을 순차적으로 순회
 - Depth-first Traversal(DFT): 깊이 우선 순회는 `root`부터 각 `children`의 `branch`에서 가장 깊은 `bottom`까지 순회
 
