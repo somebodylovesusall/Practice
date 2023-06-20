@@ -2,7 +2,7 @@
 
 ## ❔
 클래스 `Node` 내부에 `constructor`, `add`, `remove` 함수 구현  
-클래스 `Tree` 내부에 `constructor`, `traverseBF`, traverseDF` 함수 구현
+클래스 `Tree` 내부에 `constructor`, `traverseBF`, `traverseDF` 함수 구현
 - `traverseBF(fn)`: 넓이 우선 순회 수행
 - `traverseDF(fn)`: 깊이 우선 순회 수행
 
