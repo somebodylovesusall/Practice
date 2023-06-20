@@ -9,7 +9,7 @@
   q.remove(); --> 1
   
   2. Implement a 'peek' method in this Queue class.
-  Peek should return the last element (the next one to be returned) from the queue without removing it.
+  'Peek' should return the last element (the next one to be returned) from the queue without removing it.
 
   Example:
   const q = new Queue();
@@ -21,7 +21,7 @@
   Weave receives two queues as arguments and combines the contents of each into a new, third queue.
   The third queue should contain the alternating content of the two queues.
   The function should handle queues of different lengths without inserting 'undefined' into the new one.
-  Do not access the array inside of any queue, only use the add, remove, and peek functions.
+  Do not access the array inside of any queue, only use the 'add', 'remove', and 'peek' functions.
 
   Example:
   const queueOne = new Queue();
