@@ -23,8 +23,6 @@
 - Linked Lists
 - Circular Linked Lists
 - Trees
-- Breadth First Traversal
-- Depth First Traversal
 - Level Width
 - Binary Search Trees
 - Bubble Sort
