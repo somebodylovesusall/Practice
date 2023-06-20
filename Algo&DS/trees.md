@@ -13,7 +13,7 @@
 ### class Node
 - `constructor(data)`: 트리 값과 자식 요소를 가지는 노드 생성
 - `add(data)`: 매개변수 `data`를 전달받아 새로운 노드를 생성하여 자식 요소로 삽입
-- `remove(data)`: `filter` 함수를 사용하여 자식 요소들 중 매개변수 `data`와 같은 요소를 제거
+- `remove(data)`: `filter` 함수를 사용하여 자식 요소들 중 매개변수 `data`와 같은 요소를 제거한 배열을 반환
 
 ### class Tree
 - `constructor()`: `root`가 `null`로 초기화된 트리 생성
