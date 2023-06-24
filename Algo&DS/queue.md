@@ -16,7 +16,7 @@
 - `remove()`: `pop` 함수를 사용하여 큐의 마지막 요소를 반환하고 제거
 - `peek()`: 큐의 마지막 요소를 반환하고 유지
 
-### weave method
+### function weave
 - 매개변수로 배열 `sourceOne`, `sourceTwo`를 전달
 - 클래스 `Queue`의 인스턴스 `queue` 생성
 - `while` 반복문에서 `peek` 함수를 사용하여 각 배열에서 요소가 남아있는지 확인
