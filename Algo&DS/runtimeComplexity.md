@@ -4,7 +4,7 @@
 - 어떤 알고리즘의 수행력을 나타내는 지표
 - 주어진 하나의 해결 방법이 다른 방법보다 더 나은지를 결정하기 위한 구체적인 방법
 
-## Common Runtimes : Big 'O' Notation
+## Common Runtimes : Big O Notation
 - Constant Time : `O(1)`  
 얼마나 많은 요소가 있는지와 관계없이 동일한 시간 소요
 - Logarithmic Time : `O(logn)`  
