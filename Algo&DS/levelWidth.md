@@ -13,4 +13,4 @@
 - 
 
 ## 💡
-**Breadth-first Traversal(BFT)** 과 유사하지만 각 레벨을 순회하며 노드 수를 구하기 위하여 별도의 배열 `count`를 설정하는 추가 작업 필요
+Breadth-first Traversal(BFT)과 유사하지만 각 레벨을 순회하며 노드 수를 구하기 위하여 별도의 배열 `count`를 설정하는 추가 작업 필요
