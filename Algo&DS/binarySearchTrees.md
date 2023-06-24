@@ -3,9 +3,7 @@
 ## ❔
 
 ## ✔️
-### insert method
-
-### contains method
+### class Node
 
 ### function validate
 
