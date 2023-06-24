@@ -3,6 +3,11 @@
 ## ❔
 
 ## ✔️
+### insert method
+
+### contains method
+
+### function validate
 
 ## ❕
 
