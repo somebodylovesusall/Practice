@@ -15,7 +15,7 @@
 - `while` 반복문에서 배열 `arr`에 `"stop"`만 남지 않을 때까지 트리 노드를 순회
 - 배열 `arr`의 처음 요소를 변수 `node`에 저장하고 `if` 조건문에서 각 레벨의 모든 노드 순회 여부를 판단
 - `node`와 `"stop"`이 같으면 배열 `count`에 0을 삽입하고 배열 `arr`에 `"stop"`을 삽입 
-- `node`와 `"stop"`이 같지 않으면 배열 `arr`에 `node`의 자식을 삽입하고 배열 `count`에서 현재 작업 요소를 1만큼 증가
+- `node`와 `"stop"`이 같지 않으면 배열 `arr`에 `node`의 자식 요소들을 삽입하고 배열 `count`에서 현재 작업 요소를 1만큼 증가
 
 ## 💡
 Breadth-first Traversal(BFT)과의 차이점
