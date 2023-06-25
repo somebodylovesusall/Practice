@@ -1,5 +1,5 @@
 # Stack
-**LIFO (Last In First Out)**
+**LIFO(Last In First Out)**
 
 ## ❔
 클래스 `Stack` 내부에 `constructor`, `push`, `pop`, `peek` 함수 구현  
