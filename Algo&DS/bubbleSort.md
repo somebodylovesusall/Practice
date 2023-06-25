@@ -1,4 +1,5 @@
 # Bubble Sort
+**O(n^2)**
 
 ## ❔
 주어진 배열에 대하여 버블 정렬을 수행하는 `bubbleSort` 함수 구현
