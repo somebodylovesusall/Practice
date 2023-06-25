@@ -1,5 +1,5 @@
 # Queue
-**FIFO (First In First Out)**
+**FIFO(First In First Out)**
 
 ## ❔
 클래스 `Queue` 내부에 `constructor`, `add`, `remove`, `peek` 함수 구현  
