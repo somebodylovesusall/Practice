@@ -8,7 +8,11 @@
 
 ## ❕
 ### merge function
-
+- 배열 `result`를 빈 배열로 초기화
+- 매개변수 `left`와 `right`를 전달받아 `while` 반복문에서 각 배열의 처음 요소를 비교
+- 배열 요소 `left[0]`가 `right[0]보다 작으면 배열 `left`에서 처음 요소를 반환하여 배열 `result`에 삽입
+- 배열 요소 `left[0]`가 `right[0]`보다 크면 배열 `right`에서 처음 요소를 반환하여 배열 `result`에 삽입
+- `return` 문에서 배열 `result`의 요소들과 배열 `left` 또는 `right`에 남은 요소를 합친 배열을 반환
 
 ### mergeSort function
 
