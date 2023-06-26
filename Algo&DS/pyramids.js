@@ -18,8 +18,18 @@
   '#####'
 */
 
-// 1. iteration
+// 1. repeat method
 function pyramids1(n) {
+  let index = 1;
+
+  while (index <= n) {
+    console.log(" ".repeat(n - index) + "#".repeat(2 * index - 1) + " ".repeat(n - index));
+    index = index + 1;
+  }
+}
+
+// 2. iteration
+function pyramids2(n) {
   const midpoint = Math.floor((2 * n - 1) / 2);
 
   for (let row = 0; row < n; row++) {
@@ -34,15 +44,15 @@ function pyramids1(n) {
   }
 }
 
-// 2. recursion
-function pyramids2(n, row = 0, level = "") {
+// 3. recursion
+function pyramids3(n, row = 0, level = "") {
   const midpoint = Math.floor((2 * n - 1) / 2);
 
   if (n === row) return;
 
   if (level.length === 2 * n - 1) {
     console.log(level);
-    return pyramids2(n, row + 1);
+    return pyramids3(n, row + 1);
   }
 
   // let add;
@@ -50,5 +60,5 @@ function pyramids2(n, row = 0, level = "") {
   // else add = " ";
 
   let add = midpoint - row <= level.length && midpoint + row >= level.length ? "#" : " ";
-  pyramids2(n, row, level + add);
+  pyramids3(n, row, level + add);
 }
