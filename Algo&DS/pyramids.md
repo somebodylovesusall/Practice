@@ -10,6 +10,10 @@
 한 행에서 열의 중간 지점을 찾기 위하여 변수 `midpoint` 설정
 
 ## ❕
+### repeat method
+- `while` 반복문을 사용하여 변수 `index`를 1만큼 `n`까지 증가
+- `repeat` 함수를 사용하여 "#"은 변수 `n - index`만큼 " "는 `2 * index - 1`만큼 출력
+
 ### iteration
 - 변수 `midpoint`를 `Math.floor((2 * n - 1) / 2)`로 초기화
 - 이중 `for` 반복문을 사용하여 변수 `level`을 빈 문자로 초기화
