@@ -5,16 +5,16 @@
 
   Examples:
   steps(2);
-  Output from console.log:
+  Output from console.log():
   '# '
   '##'
   steps(3);
-  Output from console.log:
+  Output from console.log():
   '#  '
   '## '
   '###'
   steps(4);
-  Output from console.log:
+  Output from console.log():
   '#   '
   '##  '
   '### '
