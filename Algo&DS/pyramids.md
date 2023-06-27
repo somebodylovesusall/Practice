@@ -28,7 +28,7 @@
 - 매개변수 `n`이 `row`와 같으면 종료
 - 매개변수 `level`의 길이가 `2 * n - 1`과 같으면 로그 출력 및 매개변수 `row`를 1만큼 증가하여 재귀 호출
 - 매개변수 `level`의 길이가 `midpoint - row`보다 작거나 같고 `midpoint + row`보다 크거나 같으면 변수 `add`에 "#" 할당
-- 매개변수 `level`의 길이가 `midpoint - row`보다 크거나 `midpoint + row`보다 작으면 변수 `add`에 "#" 할당
+- 매개변수 `level`의 길이가 `midpoint - row`보다 크거나 `midpoint + row`보다 작으면 변수 `add`에 " " 할당
 - 매개변수 `level`에 변수 `add`를 추가하여 재귀 호출
 
 ## 💡
