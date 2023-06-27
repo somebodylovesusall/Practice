@@ -59,6 +59,6 @@ function pyramids3(n, row = 0, level = "") {
   // if (midpoint - row <= level.length && midpoint + row >= level.length) add = "#";
   // else add = " ";
 
-  let add = midpoint - row <= level.length && midpoint + row >= level.length ? "#" : " ";
+  const add = midpoint - row <= level.length && midpoint + row >= level.length ? "#" : " ";
   pyramids3(n, row, level + add);
 }
