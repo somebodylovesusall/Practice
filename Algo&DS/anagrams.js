@@ -5,9 +5,9 @@
   Consider capital letters to be the same as lower case
 
   Examples:
-  anagrams('rail safety', 'fairy tales') === true
-  anagrams('RAIL! SAFETY!', 'fairy tales') === true
-  anagrams('Hi there', 'Bye there') === false
+  anagrams('rail safety', 'fairy tales'); === true
+  anagrams('RAIL! SAFETY!', 'fairy tales'); === true
+  anagrams('Hi there', 'Bye there'); === false
 */
 
 // 1. iteration
