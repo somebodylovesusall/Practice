@@ -28,5 +28,3 @@
 - Bubble Sort
 - Selection Sort
 - Merge Sort
-
-## JavaScript
