@@ -28,3 +28,8 @@
 - Bubble Sort
 - Selection Sort
 - Merge Sort
+
+## JavaScript
+
+## TypeScript
+### Mini Blockchain
