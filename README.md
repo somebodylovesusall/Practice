@@ -29,7 +29,8 @@
 - Selection Sort
 - Merge Sort
 
+## HTML & CSS
+
 ## JavaScript
 
 ## TypeScript
-### Mini Blockchain
