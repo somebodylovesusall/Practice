@@ -32,5 +32,7 @@
 ## HTML & CSS
 
 ## JavaScript
+### Chrome App
+### Paint App
 
 ## TypeScript
