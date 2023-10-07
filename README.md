@@ -1,7 +1,9 @@
 # Practice
 
 ## Algorithm & Data Structure
+
 ### Algorithm
+
 - String Reversal
 - Palindromes
 - Integer Reversal
@@ -17,6 +19,7 @@
 - Fibonacci
 
 ### Data Structure
+
 - Queue
 - Stack
 - Queue Stack
@@ -32,7 +35,7 @@
 ## HTML & CSS
 
 ## JavaScript
-### Chrome App
-### Paint App
 
-## TypeScript
+### Chrome App
+
+### Paint App
