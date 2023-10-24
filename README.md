@@ -11,10 +11,6 @@
 - Sort
 - Tree
 
-## HTML & CSS
-
-### KokoaTalk
-
 ## JavaScript
 
 ### Chrome App
